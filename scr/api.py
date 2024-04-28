@@ -52,10 +52,3 @@ class ManateeJokes(Joke):
 # print(joke)
 
 
-url = "https://daddyjokes.p.rapidapi.com/random"
-headers = {
-    "X-RapidAPI-Key": "cec400650fmsh50c7d1124f67214p1bca68jsn7a125fdefc6e",
-    "X-RapidAPI-Host": "daddyjokes.p.rapidapi.com"}
-response = requests.get(url, headers=headers)
-result_json = response.json()
-print(result_json)
