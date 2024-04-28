@@ -4,14 +4,14 @@ with open("README.md", "r", encoding = "utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name = "package-name",
+    name = "get-random-joke",
     version = "0.0.1",
-    author = "author",
-    author_email = "author@example.com",
+    author = "Yeganeh Bahariasl",
+    author_email = "bahary.yeganeh@gmail.com",
     description = "short package description",
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url = "package URL",
+    url = "https://github.com/yeganeh1212/get-random-joke/tree/main",
     project_urls = {
         "Bug Tracker": "package issues URL",
     },
